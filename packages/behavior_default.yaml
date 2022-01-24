@@ -100,7 +100,7 @@ light:
         blue:        { red: 0%,   green: 0%,   blue: 100% }
         yellow:      { red: 100%, green: 100%, blue: 0%   }
         purple:      { red: 100%, green: 0%,   blue: 100% }
-        randomize:   { effect: Fast Random                }
+        randomize:   { effect: Slow Random                }
       white:
         cold:        { color_temperature: 153 mireds      }
         chilly:      { color_temperature: 275 mireds      }

@@ -56,6 +56,7 @@ script:
           then:
            - globals.set:
                id: light_is_off
+               value: !lambda return false;
 #            - front_panel.turn_on_leds: [ POWER ]
       - front_panel.update_leds:
 

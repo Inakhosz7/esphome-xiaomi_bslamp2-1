@@ -36,6 +36,7 @@ class ColorHandlerNightLight : public ColorHandler {
     // This night light mode is activated when white light is selected.
     // Based on measurements using the original device firmware, so it
     // matches the night light of the original firmware.
+    // The higher the value, the more the LED channel is dimmed.
     if (v.get_color_mode() == light::ColorMode::COLOR_TEMPERATURE) {
       red = 0.960f;
       green = 0.968f;

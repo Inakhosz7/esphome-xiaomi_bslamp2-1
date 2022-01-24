@@ -38,9 +38,9 @@ class ColorHandlerNightLight : public ColorHandler {
     // matches the night light of the original firmware.
     // The higher the value, the more the LED channel is dimmed.
     if (v.get_color_mode() == light::ColorMode::COLOR_TEMPERATURE) {
-    // red = 0.968f;
-      red = 0.968f;
-      green = 0.968f;
+    // red = 0.968f; 
+      red = 0.965f; //temperature
+      green = 0.972f;
       blue = 0.972f;
       white = 0.0f;
     }
@@ -48,7 +48,7 @@ class ColorHandlerNightLight : public ColorHandler {
     // specific color, instead of the default. This is a nice extra for
     // this firmware, as the original firmware does not support it.
     else {
-      red = esphome::lerp(v.get_red(), 0.9997f, 0.9600f);
+      red = esphome::lerp(v.get_red(), 0.9997f, 0.9650f);
       green = esphome::lerp(v.get_green(), 0.9997f, 0.9680f);
       auto blue_scale = (v.get_red() + v.get_green()) / 2.0f;
       auto blue_max = esphome::lerp(blue_scale, 0.9640f, 0.9720f);

@@ -39,7 +39,7 @@ class ColorHandlerNightLight : public ColorHandler {
     // The higher the value, the more the LED channel is dimmed.
     if (v.get_color_mode() == light::ColorMode::COLOR_TEMPERATURE) {
     // red = 0.968f; 
-      red = 0.960f; //temperature
+      red = 0.972f; //temperature
       green = 0.972f;
       blue = 0.972f;
       white = 0.0f;

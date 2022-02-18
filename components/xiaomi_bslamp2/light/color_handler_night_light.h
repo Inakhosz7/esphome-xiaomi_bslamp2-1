@@ -36,8 +36,10 @@ class ColorHandlerNightLight : public ColorHandler {
     // matches the night light of the original firmware.
     // The higher the value, the more the LED channel is dimmed.
     if (v.get_color_mode() == light::ColorMode::COLOR_TEMPERATURE) {
-    // red = 0.968f; 
-      red = 0.950f; //temperature
+    //  red = 0.950f; //temperature
+    //  green = 0.962f;
+    //  blue = 0.9997f;
+      red = 0.960f; //temperature
       green = 0.962f;
       blue = 0.9997f;
       white = 0.0f;

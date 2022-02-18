@@ -1,8 +1,6 @@
 #pragma once
 
-#include "../common.h"
 #include "../light_hal.h"
-#include "color_handler.h"
 
 namespace esphome {
 namespace xiaomi {

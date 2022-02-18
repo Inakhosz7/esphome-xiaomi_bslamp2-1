@@ -38,7 +38,7 @@ class ColorHandlerNightLight : public ColorHandler {
     if (v.get_color_mode() == light::ColorMode::COLOR_TEMPERATURE) {
     // red = 0.968f; 
       red = 0.962f; //temperature
-      green = 0.972f;
+      green = 0.952f;
       blue = 0.962f;
       white = 0.0f;
     }

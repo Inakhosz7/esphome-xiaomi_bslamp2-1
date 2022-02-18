@@ -39,7 +39,7 @@ class ColorHandlerNightLight : public ColorHandler {
     //  red = 0.950f; //temperature
     //  green = 0.962f;
     //  blue = 0.9997f;
-      red = 0.960f; //temperature
+      red = 0.955f; //temperature
       green = 0.962f;
       blue = 0.9997f;
       white = 0.0f;
